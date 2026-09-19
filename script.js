@@ -4,12 +4,12 @@ class Animal {
 		this.species
 	}
 
-	get getter(){
+	get species(){
 		return this.species
 	}
 
 	makeSound(){
-		return "The" + this.species + "makes a sound"
+		console.log("The" + this.species + "makes a sound")
 	}
 }
 
